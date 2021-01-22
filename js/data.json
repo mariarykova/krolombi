@@ -1,0 +1,50 @@
+data = `[
+    {
+        "id":1,
+        "date":"28.12.2020",
+        "text": "It’s a sales season - buy smart! It is so easy to get carried away when seeing sales prices on the items that you’ve always wanted. And it’s absolutely fair to treat yourself with something that you’ve been craving for a long time or simply just seen on the website ✨ As we are soon approaching a new season (fashion-wise ), I decided to share main predictable trends for SS21 and examples that can be bought on sale now! All selected products are on discount - you can find all the brand in the stories 🤍 Please remember that trend reports are simply a guideline not a rulebook - check-in with yourself first and see what works with your colour type, body shape and lifestyle! Swipe and enjoy 👉🏼",
+        "tags": "#krolfashion #fashiontrends #trendreport #salesseason #buysmart #wardrobestylist #fashiontips #стилиствлондоне #стилистлондон #умныепокупки #тренды #discount #bargain",
+        "img": "../images/blog/Whitagram-Image.jpeg",
+        "name": "1 пост"
+    },{
+        
+        "id":2,
+        "date":"12.12.2020",
+        "text": "By analysing both reports from @pantone Colour of 2021 selection and @wgsn A/W 22/23 it becomes apparent how much all of us, as consumers and social being, need a reset, a new focus and a sense of optimist ✨ This time Pantone presented 2 colours of 2021 - Ultimate Grey and Illuminating (vibrant yellow), marring different moods, practicality and optimism. WGSN changed strategy as well and split their annual report into 3 pallets, providing a strategic overview into consumer behaviour. See pallets in the stories ☝🏼 To sum it all up, think all shades of grey, don’t forget about silver; from earthy to sunny yellows; pretty pinks and gorgeous greens- its all in the menu!",
+        "tags": "#krolfashion #colourtrends #wardrobetips #styling #fashiontrends #stylistlondon #stylistmoscow #стилистлондон #персональныйстилист #стилистмосква #тренды #модныетренды #fashionstyle",
+        "img": "../images/blog/Whitagram-Image 2.jpeg",
+        "name": "2 пост"
+    },{
+        "id": 3,
+        "date":"12.12.2020",
+        "text": "By analysing both reports from @pantone Colour of 2021 selection and @wgsn A/W 22/23 it becomes apparent how much all of us, as consumers and social being, need a reset, a new focus and a sense of optimist ✨This time Pantone presented 2 colours of 2021 - Ultimate Grey and Illuminating (vibrant yellow), marring different moods, practicality and optimism. WGSN changed strategy as well and split their annual report into 3 pallets, providing a strategic overview into consumer behaviour. See pallets in the stories ☝🏼To sum it all up, think all shades of grey, don’t forget about silver; from earthy to sunny yellows; pretty pinks and gorgeous greens- its all in the menu!",
+        "tags": "#krolfashion #colourtrends #wardrobetips #styling #fashiontrends #stylistlondon #stylistmoscow #стилистлондон #персональныйстилист #стилистмосква #тренды #модныетренды #fashionstyle",
+        "img": "../images/blog/Whitagram-Image 3.jpeg",
+        "name": "3 пост"
+    },
+    {
+        "id": 4,
+        "date":"27.11.2020",
+        "text": "Mystery and ruffles, close your eyes to see the beauty series. Something from the previous life when we were testing and experimenting. Model @carolinagsl Collaboration @carlottazazzaroni",
+        "tags": "#krolfashion #dreams #colourexplosion #смелостьбытьсобой",
+        "img": "../images/blog/Whitagram-Image 4.jpeg",
+        "name": "4 пост"
+    },
+    {
+        "id": 5,
+        "date":"21.11.2020",
+        "text": "In the recent months of reduced social activity, I’ve noticed that quite a few elements that were often present in my day to day look simply disappeared or became less relevant. I always took pride in what I do and how I wear my hair, which included lots of different hair accessories. Modern online retail offer so many options for how to make your hair look classy/funky/cozy (whichever you prefer) which is amazing but I decided to remind myself of one thing that I particularly like - which is making hair accessories myself using regular scarfs, headscarfs and so on. In the carousel you can find my handpicked selection of hair accessories for different occasions and a few inspiring references in the stories. Enjoy! ✨",
+        "tags": "#krolfashion #headassesories #wardrobestylist #stylingtips #fashionrussia #головныеуборы",
+        "img": "../images/blog/Whitagram-Image 5.jpeg",
+        "name": "5 пост"
+    },
+    {
+        "id": 6,
+        "date":"23.10.2020",
+        "text": "A multi season dress edit 👗When buying a light summer dress around Fall/Winter period (hello, Christmas sale), it doesn’t mean it has to quietly sit and wait in your wardrobe to be worn and see the light. Mix it with a classic turtleneck (@uniqlo_uk is a safe bet) or a slim fit blouse with a statement collar so you feel nice and warm. Mix it with monochrome tights to match a blouse or a turtleneck and you are good to go 💫 See more dresses in the carousel that you can buy now and wear forever 👉🏼",
+        "tags": "#krolfashion #dresses #stylist #personalstylist #summerdress #winterdress",
+        "img": "../images/blog/Whitagram-Image 6.jpeg",
+        "name": "6 пост"
+    }
+]`;
+
