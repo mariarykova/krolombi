@@ -71,7 +71,7 @@ html, body {
       min-width: 310px;
       overflow: auto;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
+      z-index: 3;
       padding: 21px 21px;
     }
 
@@ -709,7 +709,21 @@ html, body {
   width: 176px;
 }
 
-.lang {
+.dropdown-content {
+  min-width: 248px;
+}
+
+.menu_title {
+  font-size: 11px;
+  padding: 8px 10px;
+}
+
+.submenu {
+  font-size: 11px;
+  padding: 8px 23px;
+}
+
+.translate {
   display: flex;
   flex-direction: column;
   font-size: 8px;
@@ -723,6 +737,13 @@ html, body {
     background-image: url('../images/main/cover_mobile.png');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    max-height: 577px;
+    width: 100%;
+}
+
+.cover__img {
+display: none;
 }
 
 .cover__title {
@@ -752,6 +773,11 @@ html, body {
 
 .services__wrapper {
   flex-direction: column;
+  grid-gap: 0px;
+}
+
+.services__wrapper div:nth-child(2) {
+  margin-top: -15px;
 }
 
 .text_one, .text_two {

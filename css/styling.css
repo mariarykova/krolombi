@@ -71,7 +71,7 @@ html, body {
       min-width: 310px;
       overflow: auto;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
+      z-index: 3;
       padding: 21px 21px;
     }
 
@@ -307,6 +307,64 @@ html, body {
 .service_img_group {
     margin: 0 auto;
 }
+
+#style_colour_bodyshape .service_img_group .service__img {
+    width: 600px;
+    height: 900px;
+    position: relative;
+    padding-top: 13px;
+}
+
+#style_colour_bodyshape .service_img_group .red-rectangle {
+    width: 578px;
+    height: 928px;
+    position: absolute;
+    z-index: 15;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+
+#wardrobedetox_planing_outfitting .service_img_group .service__img {
+    width: 600px;
+    height: 900px;
+    position: relative;
+    padding-top: 13px;
+}
+
+#wardrobedetox_planing_outfitting .service_img_group .red-rectangle {
+    width: 578px;
+    height: 928px;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 0px;
+    z-index: 15;
+}
+
+#personalshopping_styling .service__img {
+    width: auto;
+    height: 900px;
+    position: relative;
+    padding-top: 13px;
+}
+
+#special_occasion_styling .service_img_group .service__img {
+    width: auto;
+    height: 900px;
+    position: relative;
+    padding-top: 13px;
+}
+
+#special_occasion_styling .service_img_group .red-rectangle {
+    width: 578px;
+    height: 928px;
+    position: absolute;
+    z-index: 15;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+
 
 #style_colour_bodyshape .service_img_group, #personalshopping_styling .service_img_group {
     padding-right: 125px;
@@ -711,11 +769,19 @@ html, body {
     padding-bottom: 50px;
 }
 
-.blog__modal_cross {
+.blog__modal .blog__modal_cross {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 30px;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+/*.blog__modal_cross {
  display: flex;
  align-items: flex-start;
  padding-left: 30px;
-}
+}*/
 
 .blog__modal_button {
     display: flex;
@@ -760,17 +826,205 @@ html, body {
 
 @media (max-width: 1024px) {
 
+    #style_colour_bodyshape .service_img_group .service__img {
+        width: 500px;
+        height: 800px;
+    }
+    
+    #style_colour_bodyshape .service_img_group .red-rectangle {
+        width: 486px;
+        height: 823px;
+    }
+    
+    
+    #wardrobedetox_planing_outfitting .service_img_group .service__img {
+        width: 500px;
+        height: 800px;
+    }
+    
+    #wardrobedetox_planing_outfitting .service_img_group .red-rectangle {
+        width: 486px;
+        height: 823px;
+    }
+    
+    #personalshopping_styling .service__img {
+        height: 645px;
+    }
+    
+    #special_occasion_styling .service_img_group .service__img {
+
+        height: 800px;
+    }
+    
+    #special_occasion_styling .service_img_group .red-rectangle {
+        width: 486px;
+        height: 823px;
+    }
+
     
 .service__desc_text {
     width: 100%;
 }
 
+#wardrobedetox_planing_outfitting .service__desc, #special_occasion_styling .service__desc {
+    padding-right: 20px;
+}
+
+.service__desc_title {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.service__desc_text {
+    font-size: 15px;
+    line-height: 18px;
+    padding-bottom: 83px;
+}
+
+#style_colour_bodyshape .service__desc_text {
+    padding-bottom: 55px;
+}
+
+#personalshopping_styling .service__desc_text {
+    padding-bottom: 50px;
+}
+
+#special_occasion_styling .service__desc_text {
+    padding-bottom: 155px;
+}
+
+.service_img_group img:nth-child(1) {
+    width: 504px;
+    height: 824px;
+}
+
+.service_img_group img:nth-child(2) {
+    width: 527px;
+    height: auto;
+}
+
+#style_colour_bodyshape .service_img_group, #personalshopping_styling .service_img_group {
+    padding-right: 30px;
+}
+
+.blog__title {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.blog__wrapper {
+    justify-content: center;
+}
+
+.blog__modal_wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.blog__modal_image {
+    padding-right: 0px;
+    padding-bottom: 20px;
+    width: 622px;
+    height: auto;   
+}
+
+.blog__modal .text {
+    padding-bottom: 35px;
+}
+
+#modal_tags {
+    padding-bottom: 20px;
+}
+
+}
+
+@media (max-width: 768px) {
+    .services__title {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .service {
+        padding-bottom: 60px;
+    }
+
+    .cover__nav_wrapper {
+        padding-bottom: 180px;
+    }
+
+    .description {
+        height: 87vh;
+    }
+
+    .description__wrapper_text {
+        width: 80%
+    }
+
+    #style_colour_bodyshape .service_img_group .service__img {
+        width: 400px;
+        height: 600px;
+    }
+
+    #style_colour_bodyshape .service_img_group .red-rectangle {
+        width: 386px;
+        height: 628px;
+    }
+
+    .service__desc_text {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    #style_colour_bodyshape .service__desc_text {
+        padding-bottom: 45px;
+    }
+
+    .service__desc_title {
+        font-size: 15px;
+        padding-bottom: 15px;
+        line-height: 23px;
+    }
+
+    #wardrobedetox_planing_outfitting .service_img_group .service__img {
+        width: 350px;
+        height: 550px;
+    }
+
+    #wardrobedetox_planing_outfitting .service_img_group .red-rectangle {
+        width: 341px;
+        height: 575px;
+    }
+
+    #wardrobedetox_planing_outfitting .service__desc_text {
+        padding-bottom: 25px;
+    }
+
+    #personalshopping_styling .service__img {
+        height: 500px;
+    }
+
+    #personalshopping_styling .service__desc_text {
+        padding-bottom: 30px;
+    }
+
+    #special_occasion_styling .service_img_group .service__img {
+        height: 550px;
+    }
+
+    #special_occasion_styling .service_img_group .red-rectangle {
+        width: 340px;
+        height: 570px;
+    }
+
+    #special_occasion_styling .service__desc_text {
+        padding-bottom: 92px;
+    }
+
+
 }
 
 @media (max-width: 415px) {
-   #myDropdown {
-       display: none;
-   }
     .menu {
       height: 90px;
     }
@@ -789,7 +1043,7 @@ html, body {
     width: 176px;
   }
   
-  .lang {
+  .translate {
     display: flex;
     flex-direction: column;
     font-size: 8px;
@@ -1044,6 +1298,41 @@ line-height: 0px;
     padding-bottom: 20px;
 }
 
+.blog {
+    padding: 20px 20px;
+}
 
+.blog__modal_wrapper {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog__modal_image {
+    padding-right: 0px;
+    width: 317px;
+    height: 317px;
+    padding-bottom: 10px;
+}
+
+.blog__inner {
+    max-width: 300px;
+    width: 100%;
+}
+
+.blog__modal .date {
+    padding-bottom: 10px;
+}
+
+.blog__modal .text {
+    padding-bottom: 20px;
+}
+
+.blog__modal #modal_tags {
+    font-size: 11px;
+    padding-bottom: 20px;
+}
 
 }
