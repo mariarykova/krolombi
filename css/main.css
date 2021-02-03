@@ -334,9 +334,7 @@ html, body {
 
   .bio {
     background-color: #172A24;
-    height: auto;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 40px;
   }
 
  .bio__wrapper {
@@ -366,15 +364,20 @@ html, body {
 .bio__list {
   font-weight: normal;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 20px;
   text-align: center;
   letter-spacing: 0.04em;
   color: #FFFFFF;
   max-width: 1117px;
   width: 100%;
   margin: 0 auto;
-  list-style-type: none;
-  padding-top: 45px;
+  list-style-type: inherit;
+  padding-top: 30px;
+  list-style-position: inside;
+}
+
+.bio__list_item {
+  padding-bottom: 20px;
 }
 
 .bio__list_title {
@@ -393,7 +396,7 @@ html, body {
   background-size: contain;
   background-position: center;
   padding-bottom: 30px;
-  top: -50px;
+  top: -120px;
   position: relative;
   font-family: 'Comfortaa', cursive;
 }

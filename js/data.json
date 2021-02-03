@@ -6,8 +6,24 @@ data = `[
         "tags": "#krolfashion #fashiontrends #trendreport #salesseason #buysmart #wardrobestylist #fashiontips #стилиствлондоне #стилистлондон #умныепокупки #тренды #discount #bargain",
         "img": "./images/blog/Whitagram-Image.jpeg",
         "name": "1 пост"
-    },{
-        
+    },
+    {
+        "id": 9,
+        "date":"22.12.2020",
+        "text": "When we were pandemic free and could enjoy the closeness ✨ Styled and photographed by me for @lubimenya_clothing. Model @katiaelizarova Brand @lubimenya_clothing ⠀",
+        "tags": " #krolfashion #fashionstylist #photographer #londonstylist #londonphotographer #стилиствлондоне #стилистлондон #фотографлондон #фотографвлондоне #brandstylist #brandstyling",
+        "img": "./images/blog/7F5F05E1-9CBA-4CEA-BAF6-C90548F75E18.JPG",
+        "name": "9 пост"
+    },
+    {
+        "id": 10,
+        "date":"17.12.2020",
+        "text": "A multi season dress edit 👗When buying a light summer dress around Fall/Winter period (hello, Christmas sale), it doesn’t mean it has to quietly sit and wait in your wardrobe to be worn and see the light. Mix it with a classic turtleneck (@uniqlo_uk is a safe bet) or a slim fit blouse with a statement collar so you feel nice and warm. Mix it with monochrome tights to match a blouse or a turtleneck and you are good to go 💫 See more dresses in the carousel that you can buy now and wear forever 👉🏼",
+        "tags": "In need of some good reflection as the year is coming to an end here are some behind-the-scenes photos that take me back to different chapters of my fashion journey - a bit of modelling, quite a lot of styling and remembering my old photography hobby ✨ Thank you all, let’s hope for a better 2021 🤍",
+        "img": "./images/blog/060737EB-ADB0-43A8-8A30-8626B55776E8.jpeg",
+        "name": "10 пост"
+    },
+    {        
         "id":2,
         "date":"12.12.2020",
         "text": "By analysing both reports from @pantone Colour of 2021 selection and @wgsn A/W 22/23 it becomes apparent how much all of us, as consumers and social being, need a reset, a new focus and a sense of optimist ✨ This time Pantone presented 2 colours of 2021 - Ultimate Grey and Illuminating (vibrant yellow), marring different moods, practicality and optimism. WGSN changed strategy as well and split their annual report into 3 pallets, providing a strategic overview into consumer behaviour. See pallets in the stories ☝🏼 To sum it all up, think all shades of grey, don’t forget about silver; from earthy to sunny yellows; pretty pinks and gorgeous greens- its all in the menu!",
@@ -21,6 +37,14 @@ data = `[
         "tags": "#krolfashion #colourtrends #wardrobetips #styling #fashiontrends #stylistlondon #stylistmoscow #стилистлондон #персональныйстилист #стилистмосква #тренды #модныетренды #fashionstyle",
         "img": "./images/blog/Whitagram-Image 3.jpeg",
         "name": "3 пост"
+    },
+    {
+        "id": 11,
+        "date":"10.12.2020",
+        "text": "Long gone when suites felt constricting and stuffy. Now they can be adopted for everyday wear or be a statement piece in your wardrobe. Each season, we see this trend reappearing but quite often in different variations. Be it elongated jackets or total oversized look, suiting will never go out of style ✨ Which one you would go for? ",
+        "tags": "#wardorbetips #fashionstylist #stylistlondon #whattowear #howtowear #trends #fashiontrends #suitesforwomen #personalstylist #стилистлондон #стилиствлондоне #фотолондон",
+        "img": "./images/blog/3336372D-6683-4F65-BC73-6E9811EAF6F7.jpeg",
+        "name": "11 пост"
     },
     {
         "id": 4,
@@ -37,6 +61,30 @@ data = `[
         "tags": "#krolfashion #headassesories #wardrobestylist #stylingtips #fashionrussia #головныеуборы",
         "img": "./images/blog/Whitagram-Image 5.jpeg",
         "name": "5 пост"
+    },
+    {
+        "id": 12,
+        "date":"17.11.2020",
+        "text": "Quite often during the winter period we forget about all those beautiful skirts and dressed that make us feel elegant and cozy and just switch on ‘Let’s keep warm” mode. Fortunately this season we can see so many skirt variations (wool, cashmere, quilted) to make the winter look chic and warm. This year’s essential is quilted skirt. I love it for it’s texture and that you can make so many variations with it. I love this kilt-skirt from @uniqlo that can be worn together with jeans or any other trousers or as a classic skirt with basically any boots or flats. My winter skirt selection in the carousel 👉🏼",
+        "tags": "#krolfashion #stylingtips #quiltedskirt #warm #winterdressing #wardrobestylist #personalstylist",
+        "img": "./images/blog/E13DB16E-B579-4331-89B2-17D5CC4F41A6.jpeg",
+        "name": "12 пост"
+    },
+    {
+        "id": 7,
+        "date":"09.11.2020",
+        "text": "Starting from such eco- pioneers like @stellamccartney to mass-market, vegan leather trend is definitely here to stay. Some facts that you need to know about the fabric itself ☝🏻 Some products are treated with a chemicals (Polyvinyl chloride) which can be dangerous in production and also is a big water polluter. The majority of the products are made from Polyurethane (eg plastic) - also not the most eco friendliest solution. However, brand like @boltthreads , @pinatex and many more are fighting for different solutions to make our world a better place. As everything, this trend has it’s pros and cons so choose wisely. Swipe to see a vegan leather selection - from chicest to more budget friendly options",
+        "tags": "#krolfashion #veganleather #ecostyle #styletips",
+        "img": "./images/blog/6CBD7CA0-6027-47D0-BBDD-FB8B431F93F0.jpeg",
+        "name": "7 пост"
+    },
+{
+        "id": 8,
+        "date":"31.10.2020",
+        "text": "Feeling like Peter Pen in culottes and wool stockings 🤭This is my resent purchase from @uniqlo collaboration with @jw_anderson . Unfortunately sold out in this colour but you might be lucky and get them in blue check. If you want to experiment with texture, have a look in the carousel 👉🏼",
+        "tags": "#krolfashion #culottes #wardrobestylist #wardrobetips",
+        "img": "./images/blog/67B8E520-1F39-4D10-9CED-07BC4A6E541F.jpeg",
+        "name": "8 пост"
     },
     {
         "id": 6,
