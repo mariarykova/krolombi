@@ -126,33 +126,19 @@ html, body {
     border: none;
     outline: none;
     background: transparent;
-}
-
-.active {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 12px;
-  color: #FFFFFF;
-  text-shadow: 
-		-0   -1px 0   #172A24,
-		 0   -1px 0   #172A24,
-		-0    1px 0   #172A24,
-		 0    1px 0   #172A24,
-		-1px -0   0   #172A24,
-		 1px -0   0   #172A24,
-		-1px  0   0   #172A24,
-		 1px  0   0   #172A24,
-		-1px -1px 0   #172A24,
-		 1px -1px 0   #172A24,
-		-1px  1px 0   #172A24,
-		 1px  1px 0   #172A24,
-		-1px -1px 0   #172A24,
-		 1px -1px 0   #172A24,
-		-1px  1px 0   #172A24,
-     1px  1px 0   #172A24;
-  letter-spacing: 0.2em;
-  border-bottom: 1px solid #172A24;
-}
+  }
+  
+  .active {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+      font-size: 15px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.6px #172A24;
+  
+    letter-spacing: 0.2em;
+    border-bottom: 2px double #172A24;
+  
+  }
 
 /* COVER */
 
@@ -365,7 +351,9 @@ html, body {
     padding-top: 0px;
 }
 
-
+#style_colour_bodyshape .service__desc_button {
+    margin-top: 65px;
+}
 
 #style_colour_bodyshape .service_img_group, #personalshopping_styling .service_img_group {
     padding-right: 125px;
@@ -430,6 +418,18 @@ html, body {
     color: #172A24;
 
     padding-bottom: 83px;
+    max-width: 600px;
+}
+
+.service__desc_text_item {
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    color: #172A24;
+    padding-bottom: 0px;
     max-width: 600px;
 }
 
@@ -901,7 +901,7 @@ html, body {
     }
 
     
-.service__desc_text {
+.service__desc_text, .service__desc_text_item {
     width: 100%;
 }
 
@@ -914,14 +914,10 @@ html, body {
     padding-bottom: 20px;
 }
 
-.service__desc_text {
+.service__desc_text, .service__desc_text_item {
     font-size: 15px;
     line-height: 18px;
     padding-bottom: 83px;
-}
-
-#style_colour_bodyshape .service__desc_text {
-    padding-bottom: 55px;
 }
 
 #personalshopping_styling .service__desc_text {
@@ -1010,13 +1006,9 @@ html, body {
         height: 628px;
     }
 
-    .service__desc_text {
+    .service__desc_text, .service__desc_text_item {
         font-size: 11px;
         line-height: 13px;
-    }
-
-    #style_colour_bodyshape .service__desc_text {
-        padding-bottom: 45px;
     }
 
     .service__desc_title {
@@ -1087,9 +1079,14 @@ html, body {
     flex-direction: column;
     font-size: 8px;
   }
+
+  .line_lang {
+    transform: rotate(90deg);
+  }
+
   
   .active {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .cover {
@@ -1213,7 +1210,7 @@ html, body {
     line-height: 17px;
 }
 
-  .service__desc_text {
+  .service__desc_text, .service__desc_text_item {
     font-size: 11px;
     line-height: 12px;
     width: 317px;
@@ -1301,7 +1298,7 @@ line-height: 0px;
   .footer__author {
     font-size: 11px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
   }
 
 .modal__form {

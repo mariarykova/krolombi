@@ -15,10 +15,10 @@ let txt = {
         'typeServices': 'Types of services',
         'service_one_title': 'Fashion styling and Art Direction',
         'service_one_subtitle': 'Current portfolio of editorial commercial works',
-        'btn_more_detail': 'More details',
+        'btn_more_details': 'More details',
         'service_two_title': 'Personal styling',
         'service_two_subtitle': 'Change the way you feel about your wardrobe,style, colour and shopping',
-        'btn_more_details': 'More details',
+        'btn_more_detail': 'More details',
         'aboutme': 'about me',
         'bio_list_title': 'What we can create together',
         'list_one': 'Fashion styling and concept creation for commercial and editorial shoots.',
@@ -30,6 +30,8 @@ let txt = {
         'letstalk': 'let’s talk',
         'options': 'Service options:',
         'option_one': 'Fashion Styling and photoshoots',
+        'option_two': 'Personal Styling',
+        'option_three': 'Other',
         'submit': 'submit',
         'optional': '* Оptional',
 
@@ -50,10 +52,10 @@ let txt = {
         'typeServices': 'Виды Услуг',
         'service_one_title': 'Стилизация съемок',
         'service_one_subtitle': 'От разработки креативного решения до координации точного воплощения.',
-        'btn_more_detail': 'За деталями',
+        'btn_more_details': 'За деталями',
         'service_two_title': 'Персональный стилист',
         'service_two_subtitle': 'От создания личного стиля и анализа цветотипа до детокса гардероба и шоппинг сопровождения.',
-        'btn_more_details': 'За деталями',
+        'btn_more_detail': 'За деталями',
         'aboutme': 'обо мне',
         'bio_list_title': 'О ВАШИХ ЖЕЛАНИЯХ, КОТОРЫЕ Я УМЕЮ ИСПОЛНЯТЬ',
         'list_one': 'Модная съемка для СМИ и рекламы.',
@@ -65,6 +67,8 @@ let txt = {
         'letstalk': 'Поговорим?',
         'options': 'Выбрать услугу:',
         'option_one': 'Стилизация съемок ',
+        'option_two': 'Персональная стилистика',
+        'option_three': 'Другое',
         'submit': 'Отправить Запрос',
         'optional': '* Не обязательно для заполнения',
     }
@@ -75,7 +79,7 @@ let lang;
 document.getElementById('en').addEventListener('click', setLang.bind(null, 'en'));
 document.getElementById('ru').addEventListener('click', setLang.bind(null, 'ru'));
   
-  function setLang(lang){
+  function setLang(lang) {
     let p;
     if( !txt.hasOwnProperty(lang)) return;
     if( window.hasOwnProperty('localStorage'))

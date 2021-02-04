@@ -130,28 +130,14 @@ html, body {
 
 .active {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-	font-size: 12px;
-	color: #FFFFFF;
-	text-shadow: 
-		-0   -1px 0   #172A24,
-		 0   -1px 0   #172A24,
-		-0    1px 0   #172A24,
-		 0    1px 0   #172A24,
-		-1px -0   0   #172A24,
-		 1px -0   0   #172A24,
-		-1px  0   0   #172A24,
-		 1px  0   0   #172A24,
-		-1px -1px 0   #172A24,
-		 1px -1px 0   #172A24,
-		-1px  1px 0   #172A24,
-		 1px  1px 0   #172A24,
-		-1px -1px 0   #172A24,
-		 1px -1px 0   #172A24,
-		-1px  1px 0   #172A24,
-     1px  1px 0   #172A24;
+  font-weight: bold;
+	font-size: 15px;
+  color: #FFFFFF;
+  -webkit-text-stroke: 0.6px #172A24;
+
   letter-spacing: 0.2em;
-  border-bottom: 1px solid #172A24;
+  border-bottom: 2px double #172A24;
+
 }
 
 /* COVER */
@@ -176,7 +162,7 @@ html, body {
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-bottom: 2.431vw;
+    padding-bottom: 4.431vw;
     padding-top: 35.556vw;
 }
 
@@ -190,7 +176,6 @@ html, body {
     text-transform: uppercase;
     color: #FFFFFF;
     padding-bottom: 100px;
-    width: 452px;
     margin: 0 auto;
 }
 
@@ -212,12 +197,12 @@ html, body {
     font-weight: bold;
     font-size: 24px;
     text-align: center;
-    letter-spacing: 0.04em;
-    text-transform: lowercase;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
     color: #FFFFFF;
     background: #7B0F1C;
     border-radius: 10px;
-    padding: 7px 15px;
+    padding: 10px 15px;
     border: none;
     box-shadow: none;
     margin-bottom: 50px;
@@ -306,7 +291,7 @@ html, body {
     font-family: 'Cinzel', serif;
     font-weight: 700;
     font-size: 16px;
-    text-transform: lowercase;
+    text-transform: uppercase;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: transparent;
@@ -505,12 +490,13 @@ html, body {
     font-weight: normal;
     font-size: 14px;
     letter-spacing: 0.04em;
-    text-transform: lowercase;
+    text-transform: uppercase;
     color: #172A24;
     padding-left: 30px;
     display: flex;
     justify-content: space-between;
-    width: 550px;
+    width: 100%;
+    max-width: 600px;
 }
 
 .custom-radio {
@@ -554,10 +540,10 @@ html, body {
     font-size: 24px;
     text-align: center;
     letter-spacing: 0.04em;
-    text-transform: lowercase;
+    text-transform: uppercase;
     color: #FFFFFF;
     border: none;
-    padding: 7px 40px;
+    padding: 10px 40px;
 }
 
 .form__optional {
@@ -577,6 +563,16 @@ html, body {
 
 .instagram .bio__title {
     font-family: 'Comfortaa', cursive;
+    transition: all 0.5s;
+}
+
+.instagram__link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.instagram .bio__title:hover {
+  transform: scale(1.2);
 }
 
 .instagram__wrapper {
@@ -732,8 +728,12 @@ html, body {
   font-size: 8px;
 }
 
+.line_lang {
+  transform: rotate(90deg);
+}
+
 .active {
-  font-size: 8px;
+  font-size: 10px;
 }
 
 .cover {
@@ -805,18 +805,31 @@ display: none;
 }
 
 .bio {
-  background-image: url(../images/main/bio_mobile.png);
   max-width: 415px;
-  max-height: 634px;
-  height: 100%;
   width: 100%;
+  padding-top: 20px;
+}
+
+.bio__wrapper {
+  background-image: url('../images/Group\ 17.png');
+}
+
+.bio__about {
+  background-image: url('../images/Group\ 17.png');
 }
 
 .bio__title {
-    font-size: 22px;
-    line-height: 29px;
-    padding-top: 46px;
-    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.bio__list_title {
+  font-size: 20px;
+    line-height: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .bio__descr {
@@ -824,6 +837,26 @@ display: none;
   line-height: 14px;
   width: 100%;
   max-width: 317px;
+}
+
+.bio__list {
+  padding-top: 10px;
+  font-size: 11px;
+  line-height: 14px;
+  width: 100%;
+  max-width: 320px;
+}
+
+  .bio__list_item {
+    padding-bottom: 7px;
+}
+
+.bio__image {
+  top: 0px;
+}
+
+.bio__about {
+  top: 0px;
 }
 
 .form__input {
@@ -889,7 +922,7 @@ display: none;
 .footer__author {
   font-size: 11px;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 11px;
 }
 
 }

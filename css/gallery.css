@@ -135,42 +135,28 @@ color: #172A24;
    padding-left: 180px;
 }
 
-.lang {
+.translate {
   font-family: 'Cinzel', serif;
   font-size: 12px;
   color: #172A24;
   font-weight: bold;
   cursor: pointer;
-  padding-left: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
 }
 
 .active {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-	font-size: 12px;
-	color: #FFFFFF;
-	text-shadow: 
-		-0   -1px 0   #172A24,
-		 0   -1px 0   #172A24,
-		-0    1px 0   #172A24,
-		 0    1px 0   #172A24,
-		-1px -0   0   #172A24,
-		 1px -0   0   #172A24,
-		-1px  0   0   #172A24,
-		 1px  0   0   #172A24,
-		-1px -1px 0   #172A24,
-		 1px -1px 0   #172A24,
-		-1px  1px 0   #172A24,
-		 1px  1px 0   #172A24,
-		-1px -1px 0   #172A24,
-		 1px -1px 0   #172A24,
-		-1px  1px 0   #172A24,
-     1px  1px 0   #172A24;
-  letter-spacing: 0.2em;
-  border-bottom: 1px solid #172A24;
-  cursor: none;
-}
+  font-weight: bold;
+	font-size: 15px;
+  color: #FFFFFF;
+  -webkit-text-stroke: 0.6px #172A24;
 
+  letter-spacing: 0.2em;
+  border-bottom: 2px double #172A24;
+
+}
 
 .body {
     background-color: #EEEAE3;
@@ -277,4 +263,12 @@ hr {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 19px;
+}
+
+@media (max-width: 415px) {
+  
+  .menu {
+    display: none;
+  }
+
 }
