@@ -140,7 +140,16 @@ html, body {
   
   }
 
+  .en, .ru {
+      text-decoration: none;
+      color: #172A24;
+  }
+
 /* COVER */
+
+.cover {
+    height: 99vh;
+}
 
 .cover__styling_img {
     position: relative;
@@ -205,6 +214,10 @@ html, body {
     max-width: 1020px;
     margin: 0 auto;
     line-height: 60px;
+}
+
+.description {
+    height: 82vh;
 }
 
 .description__img {
@@ -375,7 +388,7 @@ html, body {
 }
 
 #style_colour_bodyshape .service__desc_text {
-    padding-bottom: 148px;
+    padding-bottom: 93px;
 }
 
 #wardrobedetox_planing_outfitting .service__desc_text {
@@ -493,7 +506,7 @@ html, body {
     font-size: 24px;
     text-align: center;
     letter-spacing: 0.04em;
-    text-transform: lowercase;
+    text-transform: uppercase;
 
     color: #FFFFFF;
     background: #7B0F1C;
@@ -865,6 +878,39 @@ html, body {
 
 @media (max-width: 1024px) {
 
+    .cover {
+        height: 43vh;
+    }
+
+    .cover__nav_wrapper {
+        padding-bottom: 300px;
+    }
+
+    .cover__wrapper_title {
+        font-size: 32px;
+        line-height: 49px;
+    }
+
+    .description {
+        height: 51vh;
+    }
+
+    .descriprion__title {
+        font-size: 28px;
+        line-height: 36px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    .description__wrapper_text {
+        width: 856px;
+    }
+
+    .description__text {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
     #style_colour_bodyshape .service_img_group .service__img {
         width: 500px;
         height: 800px;
@@ -900,6 +946,10 @@ html, body {
         height: 823px;
     }
 
+    #style_colour_bodyshape .service__desc_text {
+        padding-bottom: 46px;
+    }
+
     
 .service__desc_text, .service__desc_text_item {
     width: 100%;
@@ -914,10 +964,9 @@ html, body {
     padding-bottom: 20px;
 }
 
-.service__desc_text, .service__desc_text_item {
+.service__desc_text {
     font-size: 15px;
     line-height: 18px;
-    padding-bottom: 83px;
 }
 
 #personalshopping_styling .service__desc_text {
@@ -989,7 +1038,7 @@ html, body {
     }
 
     .description {
-        height: 87vh;
+        height: 68vh;
     }
 
     .description__wrapper_text {

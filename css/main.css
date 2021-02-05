@@ -137,7 +137,11 @@ html, body {
 
   letter-spacing: 0.2em;
   border-bottom: 2px double #172A24;
+}
 
+.en, .ru {
+  text-decoration: none;
+  color: #172A24;
 }
 
 /* COVER */

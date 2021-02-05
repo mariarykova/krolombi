@@ -1,0 +1,178 @@
+<!DOCTYPE html5>
+<html  lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Main</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="wrapper">
+              <div class="wrapper_left">
+                <div class="dropdown">
+                    <div id="container" class="container" onclick="myFunction()" >
+                      <div class="bar1"></div>
+                      <div class="bar2"></div>
+                      <div class="bar3"></div>
+                    </div>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#home" class="menu_title">Обо мне</a>
+                        <hr size="4" color="#172A24">
+                        <a href="styling.html" class="menu_title" id="service_one">Персональная стилистика и шоппинг</a>
+                        <a href="styling.html#style_colour_bodyshape" class="submenu" id="subservice_one">Персональный разбор личного стиля и цветотипа</a>
+                        <a href="styling.html#wardrobedetox_planing_outfitting" class="submenu" id="subservice_two">детокс гардероба</a>
+                        <a href="styling.html#personalshopping_styling" class="submenu" id="subservice_three">шоппинг сопровождение и создание новых образов</a>
+                        <a href="styling.html#special_occasion_styling" class="submenu" id="subservice_four">стилизация и шоппинг для особых событий</a>
+                        <hr size="4" color="#172A24">
+                        <a href="gallery.html" class="menu_title">Портфолио</a>
+                        <a href="#about" class="submenu">творческие работы</a>
+                        <a href="#about" class="submenu">коммерческая съемка</a>
+                    </div>
+                </div>
+      
+      
+                <div class="inst">
+                  <a href="https://www.instagram.com/ohkrolombii/"><img src="https://svgshare.com/i/R_A.svg" alt="instagram"></a>
+                </div>
+              </div>
+      
+              <div class="logo">
+                <img src="https://svgshare.com/i/RZh.svg" alt="logo">
+              </div>
+      
+              <div>
+                <button class="translate active" id='ru'>РУС</button> <img class="line_lang " src="./images/line_lang.svg" alt=""> <button class="translate" id='en'><a class="en" href="index.html">ENG</a></button>
+              </div>
+            </div>
+    </header>
+
+    <section class="cover">
+        <div class="cover__wrapper">
+            <div class="cover__title" id="main_title">Персональный стилист и модный консультант</div>
+            <div class="cover__subtitle"  id="main_subtitle">Работать в области создания стиля – значит быть и психологом и художником. Я знакомлю вас с вашей личностью, а потом помогаю привести стиль в соответствие с содержанием и запросом.</div>
+            <a styles="transition: width 0.3s ease-out;" href="#feedback_form"><button class="cover__btn" id="btn_sayhello">Вопросы сюда</button></a>
+        </div>
+        <img class="cover__img" src="./images/main/cover.jpg" alt="">
+    </section>
+
+    <section class="services">
+        <h1 class="services__title">Виды Услуг</h1>
+        <div class="services__wrapper">
+            <div>
+                <div class="text_one">
+                    <div class="title" id="service_one_title">Стилизация съемок</div>
+                    <div class="description" id="service_one_subtitle">От разработки креативного решения до координации точного воплощения.</div>
+                    <a class="btn__link" href="gallery.html"><button class="button"><div>За деталями</div><img src='https://svgshare.com/i/RbV.svg' /></button></a>
+                </div>
+                 <img class="service__img" src="https://i.ibb.co/DGpJdHy/Group-5.png" alt="Group-5" border="0">
+            </div>
+            <div>
+                <div class="text_two">
+                    <div class="title" id="service_two_title">Персональный стилист</div>
+                    <div class="description" id="service_two_subtitle">От создания личного стиля и анализа цветотипа до детокса гардероба и шоппинг сопровождения.</div>
+                    <a class="btn__link" href="styling.html"><button class="button"><span>За деталями</span><img src='https://svgshare.com/i/RbV.svg' /></button></a>
+                </div>
+                <img class="service__img" src="https://i.ibb.co/nLXTvJ5/Group-6.png" alt="Group-6" border="0">
+            </div>
+        </div>
+    </section>
+
+    <section class="bio">
+        <div class="bio__wrapper">
+            <div class="bio__list_title" id="bio_list_title">О ВАШИХ ЖЕЛАНИЯХ, КОТОРЫЕ Я УМЕЮ ИСПОЛНЯТЬ</div>
+                <ul class="bio__list">
+                    <li class="bio__list_item">Модная съемка для СМИ и рекламы.</li>
+                    <li class="bio__list_item">Провожу цветотерапию личности и аналитику фигуры, чтобы определить ваш персональный стиль.</li>
+                    <li class="bio__list_item">Подбираю оптимальный гардероб для любого типа фигур и делюсь основными правилами для дальнейшего самостоятельного составления образов.</li>
+                    <li class="bio__list_item">Помогаю найти самые интересные и актуальные предметы для будущего гардероба. Моя задача, чтобы ни одна вещь в шкафу не лежала без дела!</li>
+                    <li>Создаю образы для особых событий в вашей жизни.</li>
+                </ul>       
+        </div>
+        <img class="bio__image" src="./images/bio_main.jpg" alt="">
+        <div class="bio__about">
+            <h1 class="bio__title">обо мне</h1>
+            <div class="bio__descr">Меня зовут Оля, я  - персональный стилист и модный-консультант. Родилась в Москве, живу и работаю в Лондоне. Закончила Лондонский университет искусств по специальности  «Стайлинг и креативный менеджмент в индустрии моды». 
+                <br/><br/>
+                Сегодня я сотрудничаю с журналами и диджитал-платформами, а также частными клиентами. Разбираюсь в цветотерапии и всегда начинаю с нее, работая над персональным стилем и созданием гардероба, а также дизайном интерьера.
+                <br/><br/>            
+                Люблю использовать исторические и культурные коннотации и сочетать их с современными трендами. Подбираю стилевые решения, способные поднять самооценку способные сделать ваши отношения с собственным стилем понятнее и экономичнее. Придумываю и создаю концепты и стиль для съемок в СМИ и частных клиентов.
+                <br/><br/>
+                Моя работа включает создание ключевой темы, общей стилизации проекта, а также координацию воплощения на каждом из этапов.
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback_form" class="form">
+        <h1 class="form__title" id="letstalk">Поговорим?</h1>
+        <form class="form__feed" action="#">
+            <div class="form__input">
+                <div class="form__input_left">
+                    <input class="input-item  " name="name" required placeholder="Имя" value="" type="text">
+                    <input class="input-item" name="phone" placeholder="Номер телефона*" value="" type="number">
+                    <input class="input-item" name="email" required placeholder="E-mail" value="" type="email">
+                </div>
+                <div class="form__input_right">
+                    <textarea class="input-item" name="add" placeholder="Дополнительно" name="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            
+            <h3 class="options__title">Выбрать услугу:</h3>
+            <div class="options">
+                <div class="radio-input">
+                    <div class="radio">
+                        <input class="custom-radio" type="radio" id="fashion" name="service" value="Fashion Styling and photoshoots">
+                        <label for="fashion" id="option_two">Стилизация съемок</label>
+                    </div>
+
+                    <div class="radio">
+                        <input class="custom-radio" type="radio" id="personal" name="service" value="Personal Styling">
+                        <label for="personal" id="option_one">Персональная стилистика</label>
+                    </div>
+
+                    <div class="radio">
+                        <input class="custom-radio" type="radio" id="other" name="service" value="Other">
+                        <label for="other" id="option_three">Другое</label>
+                    </div>
+                </div>
+                <button class="form__btn" id="submit">Отправить Запрос</button>
+            </div>
+            <div class="form__optional" id="optional">* Не обязательно для заполнения</div>
+        </form>
+    </section>
+
+    <section class="instagram">
+        <h1 class="bio__title"><a class="instagram__link" href="https://www.instagram.com/ohkrolombii/">instagram</a></h1>
+        <div class="instagram__wrapper" id="instagram-feed3"></div>
+    </section>
+
+    <section class="footer">
+        <div class="footer__author">© Olya Krolombi, 2020</div>
+    </section>
+
+    <script src="./js/styling.js"></script>
+
+
+    <script src="./js/InstagramFeed.min/InstagramFeed.min.js"></script>
+    <script>
+        (function(){
+            new InstagramFeed({
+                'username': 'ohkrolombii',
+                'container': document.getElementById("instagram-feed3"),
+                'display_profile': false,
+                'display_biography': false,
+                'display_gallery': true,
+                'display_captions': true,
+                'callback': null,
+                'styling': true,
+                'items': 5,
+                'items_per_row': 5,
+                'margin': 0.25
+            });
+        })();
+</script>
+
+</body>
+</html>
