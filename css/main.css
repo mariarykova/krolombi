@@ -180,6 +180,21 @@ html, body {
     padding-top: 27vw;
 }
 
+
+.typed-cursor{
+  font-size: 40px;
+  font-weight: 400;
+  opacity: 1;
+  font-weight: 200;
+  animation: blink .7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
 .cover__subtitle {
     font-family: 'Comfortaa', cursive;
     font-weight: 300;

@@ -5,10 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/preloader.css">
     <title>Main</title>
 </head>
-<body>
-    <header>
+
+<body class="overlay">
+
+    <div class="wrap-loader loading" id="preloader">
+        <div class="loader">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="wrap-text"> 
+            <div class="text"><span>K</span><span>R</span><span>O</span><span>L</span><span>O</span><span>M</span><span>B</span><span>I</span>
+            </div>
+          </div>
+        </div>
+        <div class="loader-text">wait please</div>
+    </div>
+
+    <header id="menu">
         <div class="menu">
             <div class="wrapper">
               <div class="wrapper_left">
@@ -47,11 +64,13 @@
                 <button class="translate" id='ru'><a class="ru" href="index_ru.html">РУС</a></button> <img class="line_lang " src="./images/line_lang.svg" alt=""> <button class="translate active" id='en'>ENG</button>
               </div>
             </div>
+        </div>
     </header>
 
-    <section class="cover">
+
+    <section class="cover" id="cover">
         <div class="cover__wrapper">
-            <div class="cover__title" id="main_title">Fashion Consultant and Personal Stylist</div>
+            <div class="cover__title" ><span id="typing">Fashion Consultant and Personal Stylist</span><span class="typed-cursor">|</span></div>
             <div class="cover__subtitle"  id="main_subtitle">Creativity on your terms</div>
             <a styles="transition: width 0.3s ease-out;" href="#feedback_form"><button class="cover__btn" id="btn_sayhello">Say Hello</button></a>
         </div>
@@ -152,7 +171,40 @@
         <div class="footer__author">© Olya Krolombi, 2020</div>
     </section>
 
+    <script src="./js/preloader.js"></script>
+
     <script src="./js/styling.js"></script>
+
+    <script>
+        function printText( el ){
+        
+            let letterTimeout = 150;
+        
+            let text = el.innerHTML;
+            let i = 1;
+        
+            let print__fn = function(){
+        
+                    if( i <= text.length ){
+                        el.innerHTML = text.substr( 0, i );
+                        setTimeout( arguments.callee, letterTimeout );
+                    }
+        
+                    i++;
+                }
+        
+            print__fn() // init
+        };
+
+
+        
+        // init
+        let el = document.getElementById( 'typing' );
+
+        setTimeout(() => {
+            printText( el );
+  }, 3000)
+    </script>
 
 
     <script src="./js/InstagramFeed.min/InstagramFeed.min.js"></script>

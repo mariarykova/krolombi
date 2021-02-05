@@ -147,9 +147,18 @@ html, body {
 
 /* COVER */
 
+
+
 .cover {
-    height: 99vh;
-}
+    background-image: url("../images/styling_cover.png");
+  
+    height: 100vh;
+    background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /*height: 99vh;*/
+  }
 
 .cover__styling_img {
     position: relative;
