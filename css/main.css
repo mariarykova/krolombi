@@ -146,6 +146,16 @@ html, body {
 
 /* COVER */
 
+.cover {
+  background-image: url("../images/main/cover.jpg");
+
+  height: 100vh;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .cover__wrapper {
   text-align: center;
   margin: 0 auto;
@@ -167,7 +177,7 @@ html, body {
     text-transform: uppercase;
     color: #FFFFFF;
     padding-bottom: 4.431vw;
-    padding-top: 35.556vw;
+    padding-top: 27vw;
 }
 
 .cover__subtitle {
@@ -179,7 +189,7 @@ html, body {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     margin: 0 auto;
 }
 
