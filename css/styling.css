@@ -774,6 +774,11 @@ html, body {
     justify-content: flex-end;
 }
 
+.arrow img {
+    width: 20px;
+    height: 20px;
+}
+
 /* BLOG MODAL */
 
 .blog__modal {
