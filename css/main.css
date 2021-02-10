@@ -176,7 +176,7 @@ html, body {
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-bottom: 4.431vw;
+    padding-bottom: 2.431vw;
     padding-top: 27vw;
 }
 
@@ -204,7 +204,7 @@ html, body {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-bottom: 80px;
+    padding-bottom: 55px;
     margin: 0 auto;
 }
 
@@ -388,6 +388,22 @@ html, body {
   list-style-type: inherit;
   padding-top: 30px;
   list-style-position: inside;
+}
+
+.bio__list_eng {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  max-width: 975px;
+  width: 100%;
+  margin: 0 auto;
+  list-style-type: inherit;
+  list-style-position: inside;
+  line-height: 18px;
+  width: 100%;
+  padding-top: 20px;
 }
 
 .bio__list_item {

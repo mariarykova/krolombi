@@ -265,6 +265,169 @@ hr {
   padding-bottom: 19px;
 }
 
+/* MODALS */
+
+.modal__gallery {
+  background: rgba(23, 42, 36, 0.84);
+  padding: 50px 50px;
+
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  display: none;
+  animation: fadein 0.4s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+
+.modal__gallery_btn {
+  display: inline-flex;
+  justify-content: flex-end;
+  max-width: 1600px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.modal__gallery_btn_table {
+  padding-right: 20px;
+}
+
+.modal__gallery_wrapper {
+  display: flex;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.modal__info {
+  padding-right: 30px;
+}
+
+.modal__gallery_title {
+  font-family: Cinzel;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+}
+
+.modal__gallery_photographer {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+}
+
+.modal__gallery_location {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  padding-bottom: 50px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.modal__gallery_clothes {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+
+.modal__grid {
+  text-align: center;
+    display: grid;
+    grid-template-areas:
+        "a b c"
+        "d e f"
+        "g h i"
+        "j k l";
+    grid-gap: 28px;
+}
+
+.grid-item {
+  width: auto;
+  height: 370px;
+}
+
+.grid-one {
+  grid-area: a;
+}
+
+.grid-two {
+  grid-area: b;
+}
+
+.grid-three {
+  grid-area: c;
+}
+
+.grid-four {
+  grid-area: d;
+}
+
+.grid-five {
+  grid-area: e;
+}
+
+.grid-six {
+  grid-area: f;
+}
+
+.grid-seven {
+  grid-area: g;
+}
+
+.grid-eight {
+  grid-area: h;
+}
+
+.grid-nine {
+  grid-area: i;
+}
+
+.grid-ten {
+  grid-area: j;
+}
+
+.grid-eleven {
+  grid-area: k;
+}
+
+.grid-twelve {
+  grid-area: l;
+}
+
+
+
+
 @media (max-width: 415px) {
   
   .menu {

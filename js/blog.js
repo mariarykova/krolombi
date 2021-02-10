@@ -9,12 +9,6 @@ let modalImg = document.querySelector('.blog__modal_image');
 
 
 let myData = JSON.parse(data);
-console.log(myData[0].name);
-console.log(myData[0].date);
-console.log(myData[1].name);
-console.log(myData[1].date);
-console.log(myData);
-
 
 //let xhr = new XMLHttpRequest();//для формирования AJAX-запроса
 
@@ -35,7 +29,6 @@ console.log(myData);
 
 function showProducts(data) {
     let productsStr = ''; //строка для формирования разметки
-    console.log(data[0].name);
 
     data.forEach(obj => {
         productsStr += `<div class="blog__article">

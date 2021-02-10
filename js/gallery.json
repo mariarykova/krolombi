@@ -1,0 +1,17 @@
+data = `[
+    {
+        "id":1,
+	"name": "Harper’s Bazaar Kazakhstan July 2018",
+	"photographer": "Anastasia Fursova. Stylist: Sasha Troshchynska. Hair: Menelaos Alevras. Makeup: Silvia Dimaki. Model: Nika Sobolevskaya.",
+	"location": "London",
+	"clothes": "Dior, Chanel, Miu Miu, Prada, CELINE, Ermanno Scervino, Issey Miyake, Salvatore Ferragamo, Christian Siriano, Alexandre Vauthier, Sergio Rossi.",
+	"imgaes": {
+		0: "./images/first/Look1_08-110057 copy.jpg",
+		1: "./images/first/Look1_08-110088 copy.jpg",
+		2: "./images/first/Look1_000000780008w.jpg",
+		3: "./images/first/Look1_000000780009.jpg"
+	
+	}
+    }
+]`;
+
