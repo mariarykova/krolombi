@@ -37,7 +37,7 @@ function showProducts(data) {
                     <div class="date">${obj.date}</div>
                     <div class="text">${obj.text}</div>
                     <div class="text tags">${obj.tags}</div>
-                    <div class="arrow"><img onclick="openModal(event)" data-id="${obj.id}" src="./images/arrow.svg" alt=""></div>
+                    <div class="arrow"><img class="arrow__img" onclick="openModal(event)" data-id="${obj.id}" src="./images/arrow.svg" alt=""></div>
                 </div>
         </div>`;
     });

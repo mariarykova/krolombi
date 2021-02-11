@@ -515,7 +515,7 @@ html, body {
     padding-top: 59px;
 }
 
-.book__button {
+.book__button, .inst__button {
     font-family: 'Cinzel', serif;
     font-weight: bold;
     font-size: 24px;
@@ -774,7 +774,7 @@ html, body {
     justify-content: flex-end;
 }
 
-.arrow img {
+.arrow__img {
     width: 20px;
     height: 20px;
 }
@@ -795,6 +795,7 @@ html, body {
     width: 100%;
     height: 100%;
     overflow: scroll;
+    opacity: 0.9;
 }
 
 .blog__modal_wrapper {
@@ -850,7 +851,7 @@ html, body {
     justify-content: flex-end;
 }
 
-.blog__modal .book__button {
+.blog__modal .inst__button {
     padding: 7px 10px;
     font-size: 18px;
 }

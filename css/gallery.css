@@ -205,6 +205,12 @@ hr {
     opacity: 0.6;
 }
 
+.chosen {
+  color: #172A24;
+  border-bottom: 2px solid #172A24;
+  opacity: 1;
+}
+
 
 .gallery__main {
     max-width: 1280px;
@@ -213,6 +219,10 @@ hr {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+#commercialBlock {
+  display: none;
 }
 
 .gallery__left, .gallery__right {
@@ -309,11 +319,13 @@ hr {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
+  flex-wrap: wrap;
 
 }
 
 .modal__info {
   padding-right: 30px;
+  flex-basis: 20%;
 }
 
 .modal__gallery_title {
@@ -362,14 +374,37 @@ hr {
 
 
 .modal__grid {
+  flex-basis: 70%;
   text-align: center;
-    display: grid;
-    grid-template-areas:
-        "a b c"
-        "d e f"
-        "g h i"
-        "j k l";
-    grid-gap: 28px;
+  display: grid;
+  grid-template-areas:
+        "a b j c"
+        "g h l i"
+        "d f k k "
+        "e e e .";
+  grid-gap: 28px;
+}
+
+.modal_grid_list {
+  display: grid;
+  grid-template-areas:
+        "a b"
+        "e e"
+        "j c"
+        "g h"
+        "l i"
+        "d f"
+        "k k";
+  grid-gap: 10px;
+  margin: auto;
+}
+
+
+
+.grid-item-list {
+  height: 650px;
+  width: auto;
+  margin: auto;
 }
 
 .grid-item {
@@ -424,6 +459,8 @@ hr {
 .grid-twelve {
   grid-area: l;
 }
+
+
 
 
 
