@@ -8,7 +8,7 @@ let items = document.querySelectorAll(".item");
 console.log(items);
 
 for (let element of clickElement) {
-    element.addEventListener("click", myFunction);
+    element.addEventListener("click", openModal);
 }
 
 crossBtn.addEventListener("click", closeModal);
@@ -16,7 +16,7 @@ tableBtn.addEventListener("click", changeView);
 
 //clickElement.forEach(element => element.addEventListener("click", myFunction));
 
-function myFunction() {
+function openModal() {
     galleryModal.style.display = "block";
     document.body.style.overflow = 'hidden';
     galleryModal.style.overflow = "scroll";
