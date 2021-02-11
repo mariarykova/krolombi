@@ -235,6 +235,15 @@ hr {
     padding-right: 20px;
 }
 
+.click {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.click:hover {
+  transform: scale(1.2);
+}
+
 .green__back {
   background-color: #355148;
   margin-bottom: 20px;
