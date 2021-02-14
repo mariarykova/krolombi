@@ -530,6 +530,19 @@ html, body {
     padding: 25px 28px;
 }
 
+.call__btn {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #7B0F1C;
+    border-radius: 10px;
+    padding: 25px 28px;
+}
+
 /* MODAL FORM */
 
 .modal__form {

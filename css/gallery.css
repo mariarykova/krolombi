@@ -327,7 +327,6 @@ hr {
 
 .modal__gallery_wrapper {
   display: flex;
-  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -336,7 +335,7 @@ hr {
 
 .modal__info {
   padding-right: 30px;
-  flex-basis: 20%;
+  flex-basis: 19%;
 }
 
 .modal__gallery_title {
@@ -396,6 +395,19 @@ hr {
   grid-gap: 28px;
 }
 
+.modal__grid_december2020 {
+  flex-basis: 70%;
+  text-align: center;
+  display: grid;
+  grid-template-areas:
+        "c d e h"
+        "a a b b"
+        "f f g g"
+        "i j k k"
+        "m n l .";
+  grid-gap: 28px;
+}
+
 .modal_grid_list {
   display: grid;
   grid-template-areas:
@@ -405,7 +417,8 @@ hr {
         "g h"
         "l i"
         "d f"
-        "k k";
+        "k k"
+        "m n";
   grid-gap: 10px;
   margin: auto;
 }
@@ -469,6 +482,14 @@ hr {
 
 .grid-twelve {
   grid-area: l;
+}
+
+.grid-thirteen {
+  grid-area: m;
+}
+
+.grid-fourteen {
+  grid-area: n;
 }
 
 

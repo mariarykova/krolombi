@@ -33,3 +33,4 @@ function bindModal(triggerSelector, modalSelector, closeSelector) {
 
 bindModal(".service__desc_button", ".modal__form", ".btn__close_modal");
 bindModal(".book__button", ".modal__form", ".btn__close_modal");
+bindModal(".call__btn", ".modal__form", ".btn__close_modal");
