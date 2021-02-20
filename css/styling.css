@@ -561,6 +561,10 @@ html, body {
     margin: 10% auto;
 }
 
+.form__wrapper {
+    display: flex;
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
