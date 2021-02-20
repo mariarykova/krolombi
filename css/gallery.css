@@ -712,7 +712,7 @@ hr {
 
 .grid-item-list {
   height: 100%;
-  width: 100%;
+  width: auto;
   margin: auto;
   max-height: 650px;
 }
