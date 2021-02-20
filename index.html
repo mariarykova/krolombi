@@ -5,26 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
-    <!--<link rel="stylesheet" href="./css/preloader.css">-->
     <title>Main</title>
 </head>
 
 <body class="overlay">
-
-    <!--<div class="wrap-loader loading" id="preloader">
-        <div class="loader">
-          <div class="box"></div>
-          <div class="box"></div>
-          <div class="box"></div>
-          <div class="box"></div>
-          <div class="wrap-text"> 
-            <div class="text"><span>K</span><span>R</span><span>O</span><span>L</span><span>O</span><span>M</span><span>B</span><span>I</span>
-            </div>
-          </div>
-        </div>
-        <div class="loader-text">wait please</div>
-    </div>-->
-
     <header id="menu">
         <div class="menu">
             <div class="wrapper">
@@ -128,12 +112,12 @@
 
     <section id="feedback_form" class="form">
         <h1 class="form__title" id="letstalk">let’s talk</h1>
-        <form class="form__feed" action="#" id="ajax-contact-form" enctype="multipart/form-data" method="post">
+        <form class="form__feed" action="#" id="form" enctype="multipart/form-data" method="post">
             <div class="form__input">
                 <div class="form__input_left">
-                    <input class="input-item" id="nameFF" name="name" required placeholder="Name" value="" type="text">
+                    <input class="input-item _req" id="nameFF" name="name" required placeholder="Name" value="" type="text">
                     <input class="input-item" id="telFF" name="phone" placeholder="Phone number *" value="" type="number">
-                    <input class="input-item" id="contactFF" name="email" required placeholder="E-mail" value="" type="email">
+                    <input class="input-item _req _email" id="contactFF" name="email" required placeholder="E-mail" value="" type="email">
                 </div>
                 <div class="form__input_right">
                     <textarea class="input-item" id="projectFF" name="add" placeholder="Additionally" name="" cols="30" rows="10"></textarea>
@@ -172,8 +156,6 @@
     <section class="footer">
         <div class="footer__author">© Olya Krolombi, 2020</div>
     </section>
-
-    <script src="./js/preloader.js"></script>
 
     <script src="./js/styling.js"></script>
 
@@ -227,6 +209,8 @@
             });
         })();
 </script>
+
+<script src="./js/main.js"></script>
 
 </body>
 </html>
