@@ -800,11 +800,133 @@ hr {
 @media (max-width: 420px) {
   
   .menu {
+    display: block;
+  }
+
+  .tag {
     display: none;
   }
+
+  .menu {
+    height: 90px;
+  }
+
+  .wrapper {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+  }
+
+.inst {
+  padding-left: 20px;
+}
+
+.logo img {
+  width: 176px;
+}
+
+  .logo {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .gallery__main {
+    display: block;
+    padding: 20px 20px;
+  }
+
+  .portfolio {
+    padding-top: 30px;
+  }
+
+  .edit, .comm {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.gallery__menu {
+  padding-bottom: 20px;
+}
 
   .modal__gallery_wrapper {
     display: block;
   }
+
+  .img__block_style {
+    display: flex;
+  }
+
+  .one {
+    max-height: 205px !important;
+    height: 100% !important;
+    max-width: 166px !important;
+    width: 100% !important;
+  }
+
+  .two {
+    max-height: 205px !important;
+    height: 100% !important;
+    max-width: 156px !important;
+    width: 100% !important;
+  }
+
+  .three {
+    max-height: 205px !important;
+    height: 100% !important;
+    max-width: 317px !important;
+    width: 100% !important;
+  }
+
+  .four {
+    max-width: 325px !important;
+    width: 100% !important;
+    height: auto;
+  }
+
+
+
+  .green__back-long {
+    width: 325px;
+    padding: 10px;
+  }
+
+  .green__back {
+    width: 325px;
+    padding: 10px;
+  }
+  
+  #editorialBlock > div.gallery__left > div:nth-child(4), #commercialBlock > div.gallery__left > div.img__block_style.green__back-long{
+    display: block;
+  }
+
+  #editorialBlock > div.gallery__left > div:nth-child(4) > img.img__style.colourblock.one {
+    width: 100%;
+    max-width: 325px !important;
+  }
+
+  #commercialBlock > div.gallery__right > div:nth-child(1) {
+    width: 100% !important;
+  }
+
+  #commercialBlock > div.gallery__left > img {
+    width: 100%;
+    max-width: 317px;
+  }
+
+
+  #commercialBlock > div.gallery__left > div.img__block_style.green__back-long > img.january2021,
+  #commercialBlock > div.gallery__left > div.img__block_style.green__back-long > img.september2019 {
+    width: 100%;
+    max-width: 300px !important;
+  }
+
+  #commercialBlock > div.gallery__right > img.img__block_style.september2019,
+  #commercialBlock > div.gallery__right > img.img__block_style.january2021,
+  #commercialBlock > div.gallery__right > img.img__block_style.december2020 {
+    width: 100%;
+    max-width: 320px !important;
+  }
+
+
 
 }

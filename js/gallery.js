@@ -171,12 +171,6 @@ bindModal(".october2019", ".october_2019", "#view_october_2019", ".gridoctober20
 
 
 
-
-
-
-
-
-
   /* TABS */
 
   let editorialBtn = document.getElementById('editorial');
@@ -195,8 +189,8 @@ bindModal(".october2019", ".october_2019", "#view_october_2019", ".gridoctober20
   }
 
   function showEditorial() {
-    commercialBlock.style.display = "none";
-    editorialBlock.style.display = "flex";
-    commercialBtn.classList.remove("chosen");
-    editorialBtn.classList.add("chosen");
+      commercialBlock.style.display = "none";
+      editorialBlock.style.display = "flex";
+      commercialBtn.classList.remove("chosen");
+      editorialBtn.classList.add("chosen");    
   }

@@ -877,11 +877,15 @@ display: none;
   padding-bottom: 0px;
 }
 
-.bio__descr {
+.bio__descr, .bio__list_eng {
   font-size: 11px;
   line-height: 14px;
   width: 100%;
   max-width: 317px;
+}
+
+.bio__list_eng {
+  padding-top: 10px;
 }
 
 .bio__list {
