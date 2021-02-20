@@ -1398,6 +1398,8 @@ line-height: 0px;
     left: 5%;
     width: 90%;
     max-height: 500px;
+    transform: translateX(0);
+    margin: 0 auto;
 }
 
 .form_input-item {
@@ -1413,6 +1415,10 @@ line-height: 0px;
     padding-top: 25px;
     padding-left: 22px;
     padding-right: 20px;
+}
+
+.form__wrapper {
+    display: block;
 }
 
 .radio {
