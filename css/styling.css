@@ -1470,3 +1470,15 @@ line-height: 0px;
 }
 
 }
+
+@media (max-width: 380px) {
+ .description {
+     height: 85vh;
+ }
+}
+
+@media (max-width: 320px) {
+.description {
+    height: 111vh;
+}
+}
